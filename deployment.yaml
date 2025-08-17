@@ -17,7 +17,7 @@ spec:
       - name: ghcr-secret
       containers:
       - name: grade-submission-api
-        image: ghcr.io/lordwestcott/2025saasboiler-k8s-cicd-exampleapplication:45e0624e0c5b4df4afdb4cde81428627d90bef8e
+        image: ghcr.io/lordwestcott/2025saasboiler-k8s-cicd-exampleapplication:2f727d3f5f7bb445424191e813d4616a5d465bbf
         ports:
         - containerPort: 3000
         resources:
